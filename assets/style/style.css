@@ -1,0 +1,43 @@
+@import "reset.css";
+
+@keyframes bg {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: green;
+    }
+}
+
+@keyframes text {
+    from {
+        color: blue;
+    }
+    to {
+        color: white;
+    }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    animation: bg ease .5s infinite;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1;
+    font-size: 15vw;
+    font-weight: bold;
+    animation: text ease .5s infinite;
+}

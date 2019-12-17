@@ -1,0 +1,21 @@
+{
+  "name": "fake-api",
+  "version": "0.0.1",
+  "description": "fake -taxi- api",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon index.js"
+  },
+  "author": "brobobro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "faker": "^4.1.0",
+    "lorem-ipsum": "^2.0.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0"
+  }
+}
